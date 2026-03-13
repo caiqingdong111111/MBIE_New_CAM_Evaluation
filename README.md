@@ -1,4 +1,5 @@
 ## Status
 
-The paper describing these evaluation metrics is currently under preparation. 
-The full documentation and experimental results will be released after publication.
+The papers on these evaluation metrics are currently awaiting acceptance.
+
+Full documentation and purchasing information will be released after the papers are published.
