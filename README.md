@@ -2,4 +2,4 @@
 
 The papers on these evaluation metrics are currently awaiting acceptance.
 
-Full documentation and purchasing information will be released after the papers are published.
+Full documentation and information will be released after the papers are published.
