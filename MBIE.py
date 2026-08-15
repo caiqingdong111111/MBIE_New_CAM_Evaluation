@@ -4,7 +4,7 @@ from PIL import Image
 
 if __name__ == '__main__':
 
-    ground_path = r'VOC2012\SegmentationClassAug' # ground truth mask folder
+    ground_path = r'VOC2012\SegmentationClass' # ground truth mask folder
     trainlist = r'VOC2012\train.txt'
     cam_path = r'CAM_result_samples' # CAM results folder
     img_name_list = open(trainlist).read().splitlines()
