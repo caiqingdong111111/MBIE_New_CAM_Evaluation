@@ -4,12 +4,12 @@ from PIL import Image
 
 if __name__ == '__main__':
 
-    ground_path = r'VOC2012\SegmentationClass' # ground truth mask folder
-    trainlist = r'VOC2012\train.txt'
+    ground_path = r'VOC2012/SegmentationClass' # ground truth mask folder
+    trainlist = r'VOC2012/train.txt'
     cam_path = r'CAM_result_samples' # CAM results folder
     img_name_list = open(trainlist).read().splitlines()
 
-    wholelabel = np.load(r'VOC2012\cls_labels.npy', allow_pickle=True).item()
+    wholelabel = np.load(r'VOC2012/cls_labels.npy', allow_pickle=True).item()
     # the cls_labels.npy file records the categories associated with each image.
 
     class_count = np.zeros((20))
